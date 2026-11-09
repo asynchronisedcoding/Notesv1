@@ -1,1 +1,12 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+@theme{
+    --secondary: #FFE4EA;
+}
+@utility input-box {
+    @apply w-full text-sm bg-transparent border-[1.5px] px-5 py-3 rounded mb-4 outline-none;
+}
+
+@utility btn-primary {
+    @apply cursor-pointer w-full text-sm bg-[#E8588A] text-white p-2 rounded my-1;
+}
